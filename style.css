@@ -1,42 +1,6 @@
-/* body{
-    background-color: lightblue;
-}
-
-.titulo{
-     display: inline-block; 
-    background-color: rgba(18, 35, 185, 0.711);
-    text-align: center;
-    border: 5px solid blueviolet;
-    border-radius: 6px;
-    width: 25%;
-    margin-left: 35%;
-}
-
-.nome{
-    background-color: blanchedalmond;
-}
-
-.minha-foto{
-    display: block;
-}
-
-.minha-foto{
-    width: 320px;
-}
-
-.logo-whatsapp{
-    width: 50px;
-    height: 50px;
-}
-
-.logo-gmail{
-    width: 50px;
-    height: 50px;
-
-}  */
 
 
-/* ---------- Reset básico ---------- */
+
 * {
     margin: 0;
     padding: 0;
@@ -44,7 +8,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* ---------- Corpo da página ---------- */
+
 body {
     background-color: #f4f6f9;
     color: #333;
@@ -54,7 +18,7 @@ body {
     padding: 20px;
 }
 
-/* ---------- Cabeçalho ---------- */
+
 header {
     text-align: center;
     margin-bottom: 30px;
@@ -83,7 +47,7 @@ header {
     color: #34495e;
 }
 
-/* ---------- Seções ---------- */
+
 main h1,
 main h2,
 main h3 {
@@ -102,7 +66,6 @@ main h3 {
     margin-bottom: 15px;
 }
 
-/* ---------- Lista de contatos ---------- */
 .lista {
     list-style: none;
     padding-left: 0;
@@ -121,7 +84,7 @@ main h3 {
     margin-right: 10px;
 }
 
-/* ---------- Tabela de experiências ---------- */
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -165,7 +128,6 @@ table th {
     color: #1abc9c;
 }
 
-/* ---------- Responsividade ---------- */
 @media (max-width: 600px) {
     body {
         padding: 15px;
@@ -186,5 +148,6 @@ table th {
         padding: 8px;
     }
 }
+
 
 
